@@ -1,12 +1,14 @@
-import Nav from "./sections/Nav";
-import Hero from "./sections/Hero";
-import PopularProducts from "./sections/PopularProducts";
-import SpecialOffer from "./sections/SpecialOffer";
-import SuperQuality from "./sections/SuperQuality";
-import Services from "./sections/Services";
-import Subscribe from "./sections/Subscribe";
-import Footer from "./sections/Footer";
-import CustomersReviews from "./sections/CustomersReviews";
+import {
+  Nav,
+  Hero,
+  PopularProducts,
+  SpecialOffer,
+  Services,
+  SuperQuality,
+  Footer,
+  Subscribe,
+  CustomersReviews,
+} from "./sections";
 const App = () => (
   <main className="relative ">
     <Nav />
